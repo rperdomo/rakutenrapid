@@ -65,7 +65,7 @@ app.post("/generate", (req, res) => {
 
 
 app.use(express.static("public"))
-//app.listen(port, () => console.log(`Running on http://localhost:${port}/`))
+app.listen(port, () => console.log(`Running on http://localhost:${port}/`))
 
-
-app.listen(process.env.PORT || port, process.env.IP || "0.0.0.0", function() {});
+//Used for cloud9
+//app.listen(process.env.PORT || port, process.env.IP || "0.0.0.0", function() {});
