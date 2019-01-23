@@ -1,7 +1,7 @@
 {
-  "name": "multilingual-news",
+  "name": "multilingual-article",
   "version": "1.0.0",
-  "description": "Multilingual news feed generator",
+  "description": "Multilingual Article Summary Generation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
